@@ -30,8 +30,8 @@ The results are pretty similar to the previous model.<br>The balanced accuracy s
 <br><br>
 
 ### ClusterCentroids model
-![]
-Here the balanced accuracy score is down to about 52%.<br>The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.<br>Due to the high number of false positives, the low_risk sensitivity is only 40%.
+![](https://github.com/shivam0921/Credit_Risk_Analysis/blob/main/images/UnderSampling.JPG)
+The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.<br>Due to the high number of false positives, the low_risk sensitivity is only 44%.
 <br><br>
 
 ### SMOTEENN model
@@ -41,12 +41,12 @@ The balanced accuracy score is about 62%.<br>The high_risk precision is still 1%
 
 ### BalancedRandomForestClassifier model
 ![](https://github.com/shivam0921/Credit_Risk_Analysis/blob/main/images/Balanced%20Random%20Forest%20Classifier.JPG)
-The balanced accuracy score improved to about 79%.<br>The high_risk precision is still low at 4% only with 69% sensitivity which makes a F1 of only 7%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
+The balanced accuracy score improved to about 79%.<br>The high_risk precision is still low at 4% only with 69% sensitivity which makes a F1 of only 7%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 89% with 100% presicion.
 <br><br>
 
 ### EasyEnsembleClassifier model
-![]
-Now, the balanced accuracy score is high to about 93%.<br>The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
+![](https://github.com/shivam0921/Credit_Risk_Analysis/blob/main/images/Easy%20Ensemble%20AdaBoost.JPG)
+Now, the balanced accuracy score is high to about 92%.<br>The high_risk precision is still low at 9% only with 91% sensitivity which makes a F1 of only 16%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
 <br><br>
 
 ## Summary
