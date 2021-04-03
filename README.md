@@ -20,7 +20,7 @@ We will evaluate the performance of these models and make a recommendation on wh
 ### RandomOverSampler model
 
   ![](https://github.com/shivam0921/Credit_Risk_Analysis/blob/main/images/Random%20OverSampling.JPG)
-The balanced accuracy score is 65%.<br>The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
+The balanced accuracy score is 65%.<br>The high_risk precision is about 1% only with 69% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
 <br><br>
 
 ### SMOTE model
@@ -41,7 +41,7 @@ The balanced accuracy score is about 62%.<br>The high_risk precision is still 1%
 
 ### BalancedRandomForestClassifier model
 ![](https://github.com/shivam0921/Credit_Risk_Analysis/blob/main/images/Balanced%20Random%20Forest%20Classifier.JPG)
-The balanced accuracy score improved to about 79%.<br>The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
+The balanced accuracy score improved to about 79%.<br>The high_risk precision is still low at 4% only with 69% sensitivity which makes a F1 of only 7%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
 <br><br>
 
 ### EasyEnsembleClassifier model
